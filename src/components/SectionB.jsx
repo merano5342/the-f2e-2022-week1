@@ -80,7 +80,7 @@ const SectionB = () => {
   return (
     <section id='section-b' className="relative flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
-        <div className="chara-box md:border">
+        <div className="chara-box">
           <Animate.ScaleIn1>
             <img src={CharaYellow} alt="" className='chara top-0 left-[-40%] md:top-[90%] lg:top-[-50vh]' />
           </Animate.ScaleIn1>
