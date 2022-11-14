@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/the-f2e-2022-week1/static/css/main.f6d86cb1.css",
+    "main.js": "/the-f2e-2022-week1/static/js/main.ab9149e4.js",
+    "static/media/bg-f2e.png": "/the-f2e-2022-week1/static/media/bg-f2e.de8ba19683f1d6cfb76f.png",
+    "static/media/speaker-2.png": "/the-f2e-2022-week1/static/media/speaker-2.a70213adcb0084a5f291.png",
+    "static/media/speaker-4.png": "/the-f2e-2022-week1/static/media/speaker-4.a8b29e75effd6d216abd.png",
+    "static/media/speaker-1.png": "/the-f2e-2022-week1/static/media/speaker-1.1a7ceb7ce09f54aede83.png",
+    "static/media/speaker-3.png": "/the-f2e-2022-week1/static/media/speaker-3.508384eaa9a6291660fb.png",
+    "static/media/bg-chara.png": "/the-f2e-2022-week1/static/media/bg-chara.9a2a4b84a497658a9d00.png",
+    "static/media/theme-2.png": "/the-f2e-2022-week1/static/media/theme-2.3a1276ee37e542e56d22.png",
+    "static/media/theme-3.png": "/the-f2e-2022-week1/static/media/theme-3.3de9ea21961621ad23da.png",
+    "static/media/theme-1.png": "/the-f2e-2022-week1/static/media/theme-1.5ad6c0c099e8767fb48e.png",
+    "static/media/banner-chara.png": "/the-f2e-2022-week1/static/media/banner-chara.333bfffe4f13b9fcbf2b.png",
+    "static/media/chara.png": "/the-f2e-2022-week1/static/media/chara.9ae8cc796f7bce9eb5f1.png",
+    "static/media/chara-y.png": "/the-f2e-2022-week1/static/media/chara-y.29dd8981f11fc15785db.png",
+    "static/media/chara-b.png": "/the-f2e-2022-week1/static/media/chara-b.16c8741db9c7acb68508.png",
+    "static/media/banner-title.png": "/the-f2e-2022-week1/static/media/banner-title.8f77c5d8098ffe868063.png",
+    "static/media/banner-shape.png": "/the-f2e-2022-week1/static/media/banner-shape.1c5f5959b0f137acbade.png",
+    "static/media/9-l-a.png": "/the-f2e-2022-week1/static/media/9-l-a.f3ba8de541e6f6184a3a.png",
+    "index.html": "/the-f2e-2022-week1/index.html",
+    "static/media/hamburger.svg": "/the-f2e-2022-week1/static/media/hamburger.2099ebf4fb91e79609efa2a994515319.svg",
+    "main.f6d86cb1.css.map": "/the-f2e-2022-week1/static/css/main.f6d86cb1.css.map",
+    "main.ab9149e4.js.map": "/the-f2e-2022-week1/static/js/main.ab9149e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d86cb1.css",
+    "static/js/main.ab9149e4.js"
+  ]
+}
