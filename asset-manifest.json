@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/the-f2e-2022-week1/static/css/main.f6d86cb1.css",
+    "main.css": "/the-f2e-2022-week1/static/css/main.daa5d8b4.css",
     "main.js": "/the-f2e-2022-week1/static/js/main.ab9149e4.js",
     "static/media/bg-f2e.png": "/the-f2e-2022-week1/static/media/bg-f2e.de8ba19683f1d6cfb76f.png",
     "static/media/speaker-2.png": "/the-f2e-2022-week1/static/media/speaker-2.a70213adcb0084a5f291.png",
@@ -20,11 +20,11 @@
     "static/media/9-l-a.png": "/the-f2e-2022-week1/static/media/9-l-a.f3ba8de541e6f6184a3a.png",
     "index.html": "/the-f2e-2022-week1/index.html",
     "static/media/hamburger.svg": "/the-f2e-2022-week1/static/media/hamburger.2099ebf4fb91e79609efa2a994515319.svg",
-    "main.f6d86cb1.css.map": "/the-f2e-2022-week1/static/css/main.f6d86cb1.css.map",
+    "main.daa5d8b4.css.map": "/the-f2e-2022-week1/static/css/main.daa5d8b4.css.map",
     "main.ab9149e4.js.map": "/the-f2e-2022-week1/static/js/main.ab9149e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d86cb1.css",
+    "static/css/main.daa5d8b4.css",
     "static/js/main.ab9149e4.js"
   ]
 }
