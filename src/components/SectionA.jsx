@@ -7,27 +7,15 @@ const SectionA = () => {
 
 
   return (
-    <section id='section-a' className="bg-beige">
-
-
-      <h2 className='shadowed-title font-bold text-center'>你是否也有以下困擾</h2>
-
+    <section id='section-a' className="p-4">
+      <h2 className='shadowed-title font-bold text-center z-10'>你是否也有以下困擾</h2>
       <div className="pt-[40px] mx-auto max-w-[800px]">
-
-
         <div className="dialog dialog-1">
-          <p className="typing">
-
-            羨慕別人的酷酷網頁動畫？
-
-          </p>
-
+          <p className="typing">羨慕別人的酷酷網頁動畫？</p>
         </div>
 
         <div className="dialog dialog-2">
-          <p className="typing">
-            滿足不了同事的許願？
-          </p>
+          <p className="typing">滿足不了同事的許願？</p>
         </div>
 
         <div className="dialog dialog-3">
@@ -35,16 +23,11 @@ const SectionA = () => {
         </div>
 
       </div>
-      <img src={QuestionMark} alt="" className='question-mark' />
+      <img src={QuestionMark} alt="" className='question-mark top-[440px]' />
       <div className="">
         <img src={Chara} alt="chara" className='chara' />
       </div>
-
-
-
     </section>
-
-
   );
 };
 

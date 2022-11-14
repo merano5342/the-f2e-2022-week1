@@ -10,17 +10,17 @@ const Banner = () => {
   return (
     <section className="banner relative pt-[100px] " id='banner'>
       <div className="flex justify-center">
-        <img src={Chara} alt="Chara" className='chara absolute top-[36%] sm:top-[20%]' />
+        <img src={Chara} alt="Chara" className='chara absolute top-[36%] md:top-[20%]' />
 
-        <img src={Star} alt="Star" className='star absolute top-[80%] right-[20%]' />
+        <img src={Star} alt="Star" className='star absolute bottom-[20%] right-[20%]' />
         <img src={Star} alt="Star" className='star absolute bottom-[74%] left-[20%] ' />
         <img src={Star} alt="Star" className='star absolute bottom-[84%] left-[28%] h-[3rem]' />
 
-        <img src={Title} alt="Title" className='title absolute top-[30%] sm:top-[20%] h-max-[470px]' />
+        <img src={Title} alt="Title" className='title absolute top-[30%] md:top-[20%] h-max-[470px]' />
 
 
       </div>
-      <div className="number-box absolute bottom-[100px] flex right-0 left-0 mx-auto justify-between w-[400px]">
+      <div className="number-box absolute bottom-[50px] flex right-0 left-0 mx-auto px-6 justify-between max-w-[400px]">
         <div className="text-center">
           <h2 className='text-cyan font-bold text-3xl'>1265</h2>
           <p className='text-white'>total</p>

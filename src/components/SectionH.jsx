@@ -43,11 +43,11 @@ const SectionH = () => {
     <section className="section" id='section-h'>
 
       <h1 className='title shadowed-title  font-bold text-center'>各界大神接力分享</h1>
-      <div className="container px-4 mx-auto mt-10 md:mt-[100px]">
+      <div className="container px-4 mx-auto mt-10 lg:mt-[100px]">
         {data.map((item) => {
           return (
-            <div className="md:flex my-8 mx-4" key={item.id}>
-              <img src={item.img} alt="" className='h-[200px] mx-auto mb-[-10px] z-10 md:h-[300px] md:mr-[-20px]' />
+            <div className="lg:flex my-8 mx-4" key={item.id}>
+              <img src={item.img} alt="" className='h-[200px] mx-auto mb-[-10px] z-10 lg:h-[300px] lg:mr-[-20px]' />
               <div className="item-box  bg-white w-full  py-10 px-20" >
                 <h2 className='mb-3 underline underline-offset-8'>{item.title}</h2>
                 <h3 className='inline mb-3'>{item.name}</h3>

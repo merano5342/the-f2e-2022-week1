@@ -78,7 +78,7 @@ const SectionD = () => {
         <img src={charaY} alt="" className='absolute h-[500px] left-[-290px] top-[-50px]' />
       </Animate.ScaleIn1>
 
-      <div className="content relative top-[100px] left-0 z-10 sm:left-[20%] md:left-[30%]">
+      <div className="content relative top-[100px] left-0 z-10 md:left-[20%] lg:left-[30%]">
         <div className="timeline-box">
           <img src={star} alt="" className='star' />
           <h2>報名開始 Sign Up</h2>

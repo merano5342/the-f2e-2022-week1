@@ -4,14 +4,11 @@ const SectionE = () => {
   return (
     <section id='section-e'>
 
-      {/* <h2 className='mb-7 white-border py-3'>額外競賽</h2> */}
       <h2 className='mb-6 text-5xl'>區區修煉已經無法滿足了嗎？還有比賽等著你！</h2>
 
       <div className="grid grid-rows-2 gap-2 md:grid-cols-2 md:grid-rows-1">
         <div className="box p-8">
           <h2 className='text-left font-bold text-xl bg-white inline-block px-4 py-2 text-purple mb-4'>評審機制</h2>
-
-
           <div className="">
             <h3 className="white-border inline-block  m-0 mb-4">
               初選
@@ -31,7 +28,7 @@ const SectionE = () => {
 
         <div className="box bg-white rounded-2xl p-8">
 
-          <h2 className='text-center font-bold text-xl bg-purple inline-block px-4 py-2 mb-2 md:mb-4'>獎項</h2>
+          <h2 className='text-center font-bold text-xl bg-purple inline-block px-4 py-2 mb-2 lg:mb-4'>獎項</h2>
           <div className="mx-4">
             <li className='mb-4'>
               <span className="font-bold text-xl mr-2">

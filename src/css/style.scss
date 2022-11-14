@@ -5,18 +5,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-$mobile: 576px;
-$tablet: 768px;
+
+$mobile: 375px; // 大於這個就不是手機了
+$tablet: 768px; // 大於這個就不是平板了
 // $desktop: 1440px;
 
-@mixin sm {
+@mixin md {
   @media (min-width: #{$mobile}) {
     @content;
   }
 }
 
-// Medium devices
-@mixin md {
+@mixin lg {
   @media (min-width: #{$tablet}) {
     @content;
   }
@@ -148,8 +148,6 @@ $tablet: 768px;
   }
 
   #banner {
-
-    // padding-top: 70px;
     .title {
       max-height: 450px;
       animation: float 3.8s ease-in-out infinite;
@@ -160,6 +158,7 @@ $tablet: 768px;
       max-height: 500px;
       animation: float 4s ease-in-out infinite;
       z-index: 10;
+
     }
 
     .shape {
@@ -171,7 +170,7 @@ $tablet: 768px;
   }
 
   #section-a {
-    // padding-top: 70px;
+
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -280,13 +279,13 @@ $tablet: 768px;
 
     .chara {
       position: absolute;
-      top: 300px;
+      top: 380px;
       right: 70%;
       width: 60%;
       animation:
         float 2.3s infinite;
 
-      @include sm {
+      @include md {
         bottom: -100px;
         top: unset;
       }
@@ -349,37 +348,41 @@ $tablet: 768px;
       }
     }
 
+    .text {
+      z-index: 1;
+    }
+
     .chara-box {
-      position: relative;
-      top: 10%;
-      right: 30%;
-      height: 80vh;
-      width: 800px;
-      margin: 0 auto;
+      position: absolute;
+      // top: 10%;
+      // right: 0%;
+      height: 100vh;
+      width: 100%;
+      // margin: 0 auto;
       // object-fit: contain;
       // animation: spin2 4s ease-in-out infinite;
 
-      @include sm {
-        top: 10%;
-        right: 5%;
-        // height: 88vh;
-        width: 900px;
-      }
+      // @include md {
+      //   top: 10%;
+      //   right: 5%;
+      //   // height: 88vh;
+      //   width: 900px;
+      // }
     }
 
     .chara {
       position: absolute;
-      // max-height: 800px;
-      max-height: 130vh;
+      z-index: -10;
+      // top: 0;
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
+      // height: 800px;
+      // max-height: 130vh;
       width: 100%;
-      animation: spin2 4s ease-in-out infinite;
+      animation: spin2 2s ease-in-out infinite;
 
-      @include sm {
-        // height: 100vh;
-        // width: 100vh;
-        // height: 100vh;
-        // width: 100%;
-      }
+
     }
   }
 
@@ -416,7 +419,7 @@ $tablet: 768px;
       }
     }
 
-    @include sm {
+    @include md {
       .card {
         @apply grid;
         grid-template-columns: minmax(200px, 1fr) 1fr;
@@ -434,7 +437,7 @@ $tablet: 768px;
       }
     }
 
-    @include md {
+    @include lg {
       .card {
         @apply mx-4;
         grid-template-rows: minmax(100px, 230px) 1fr;
@@ -478,7 +481,7 @@ $tablet: 768px;
     h2 {
       @apply mb-14 text-base;
 
-      @include md {
+      @include lg {
         @apply text-xl;
       }
     }
@@ -663,9 +666,6 @@ $tablet: 768px;
 
   #footer {
     height: 100%;
-    padding: 0 50px;
-    // padding-top: 100px;
-
   }
 
   #section-g {
@@ -685,7 +685,7 @@ $tablet: 768px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    @include md {
+    @include lg {
       // background-position-y: -20px;
       background-position-x: 0px;
     }
