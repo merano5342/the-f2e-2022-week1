@@ -280,12 +280,16 @@ $tablet: 768px;
 
     .chara {
       position: absolute;
-      bottom: 6%;
-      right: 40%;
+      top: 300px;
+      right: 70%;
       width: 60%;
       animation:
         float 2.3s infinite;
 
+      @include sm {
+        bottom: -100px;
+        top: unset;
+      }
     }
 
     .question-mark {
