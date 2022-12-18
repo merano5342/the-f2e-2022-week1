@@ -73,12 +73,12 @@ const SectionD = () => {
 
   return (
     <section className="section" id='section-d'>
-      <h2 className='mb-7 white-border py-3 '>活動時程</h2>
+      <h2 className='mb-7 white-border py-3 max-w-5xl mx-auto '>活動時程</h2>
       <Animate.ScaleIn1>
         <img src={charaY} alt="" className='absolute h-[500px] left-[-290px] top-[-50px]' />
       </Animate.ScaleIn1>
 
-      <div className="content relative top-[100px] left-0 z-10 md:left-[20%] lg:left-[30%]">
+      <div className="content relative top-[100px] left-0 z-10 md:left-[20%] lg:left-[40%]">
         <div className="timeline-box">
           <img src={star} alt="" className='star' />
           <h2>報名開始 Sign Up</h2>
@@ -111,7 +111,7 @@ const SectionD = () => {
       <Animate.ScaleIn2>
         <img src={charaB} alt="" className='absolute h-[500px] right-[-290px] bottom-[50px]' />
       </Animate.ScaleIn2>
-      <div className="challenge">
+      <div className="challenge max-w-5xl">
         <div className="content">
           <div className="challenge-box">
             <img src={star} alt="" className='star' />

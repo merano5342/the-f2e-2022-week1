@@ -20,7 +20,7 @@ const Banner = () => {
 
 
       </div>
-      <div className="number-box absolute bottom-[50px] flex right-0 left-0 mx-auto px-6 justify-between max-w-[400px]">
+      <div className="number-box absolute bottom-[50px] flex flex-col md:flex-row right-0 left-0 mx-auto px-6 justify-between max-w-[400px]">
         <div className="text-center">
           <h2 className='text-cyan font-bold text-3xl'>1265</h2>
           <p className='text-white'>total</p>

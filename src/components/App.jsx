@@ -9,7 +9,7 @@ import SectionF from "./SectionF";
 import SectionG from "./SectionG";
 import SectionH from "./SectionH";
 import Footer from "./Footer";
-import MoveElement from "./MoveElement"
+
 
 const App = () => {
   return (
@@ -24,13 +24,9 @@ const App = () => {
         <SectionC />
         <SectionD />
         <SectionE />
-
         <SectionH />
         <SectionF />
-
-
         <SectionG />
-
         <Footer />
 
       </div >

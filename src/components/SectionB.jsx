@@ -89,11 +89,11 @@ const SectionB = () => {
           </Animate.ScaleIn2>
         </div>
         <div className="">
-          <div className="absolute right-0 top-0 text m-4 ">
+          <div className="absolute right-0 top-0 text m-10 ">
             <h2 className='white-border'>本屆主題</h2>
             <h2 className='p-2'>／ 互動式網頁設計</h2>
           </div>
-          <div className="text absolute left-0 bottom-20  m-4">
+          <div className="text absolute left-0 bottom-20  m-10">
             <h2 className='p-2'>UI 設計師 × 前端工程師</h2>
             <h2 className='white-border'>攜手合作</h2>
           </div>
