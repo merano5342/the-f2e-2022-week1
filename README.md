@@ -7,7 +7,8 @@
 (live page demo here! ⇩)  
 https://merano5342.github.io/the-f2e-2022-week1/  
 
-https://github.com/merano5342/the-f2e-2022-week1/blob/main/desktop-pic.png
+![image](https://github.com/merano5342/the-f2e-2022-week1/blob/main/desktop-pic.png)
+
 
 ## 本地運行方式
 1. 下載專案  
