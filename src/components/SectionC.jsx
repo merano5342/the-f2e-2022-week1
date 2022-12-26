@@ -1,11 +1,16 @@
 import { DATA_THEME } from "./data/DATA";
+import Animate from './unit/animation'
+
 const SectionC = () => {
   return (
     <section id='section-c' >
-      <h2 className='my-16 white-border py-3 max-w-5xl mx-auto' > 年度最強合作，三大主題來襲</ h2>
+      <Animate.ScaleIn3>
+        <h2 className='mb-8 white-border py-2 max-w-5xl mx-auto' > 年度最強合作，三大主題來襲</ h2>
+      </Animate.ScaleIn3>
+
       <h3 className='mb-6'>各路廠商強強聯手，<br />共同設計出接地氣的網頁互動挑戰關卡</h3>
 
-      <div className="flex flex-col mx-auto gap-6 lg:grid lg:grid-cols-3 max-w-6xl">
+      <div className="flex flex-col mx-auto gap-6 lg:grid lg:grid-cols-3 max-w-6xl ">
         {DATA_THEME.map((item) => {
           return (
             <div className="card" key={item.id}>

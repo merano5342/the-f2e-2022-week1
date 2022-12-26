@@ -1,115 +1,64 @@
 import star from '../assets/images/banner/star.png'
 import charaY from '../assets/images/chara-y.png'
 import charaB from '../assets/images/chara-b.png'
-import { useState, useEffect, useRef } from 'react'
+import Shape from '../assets/images/banner/banner-shape.png'
+import Animate from './unit/animation'
+
 
 
 
 const SectionD = () => {
 
-  function useElementOnScreen(ref, rootMargin = "0px") {
-    const [isIntersecting, setIsIntersecting] = useState(true);
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          setIsIntersecting(entry.isIntersecting);
-        },
-        { rootMargin }
-      );
-      if (ref.current) {
-        observer.observe(ref.current);
-      }
-      return () => {
-        if (ref.current) {
-          observer.unobserve(ref.current);
-        }
-      };
-    }, []);
-    return isIntersecting;
-  }
 
-  const AnimateIn = ({ from, to, children }) => {
-    const ref = useRef(null);
-    const onScreen = useElementOnScreen(ref);
-    const defaultStyles = {
-      transition: "400ms ease-in-out"
-    };
-    return (
-      <div
-        ref={ref}
-        style={
-          onScreen
-            ? {
-              ...defaultStyles,
-              ...to
-            }
-            : {
-              ...defaultStyles,
-              ...from
-            }
-        }
-      >
-        {children}
-      </div>
-    );
-  };
-
-  const ScaleIn1 = ({ children }) => (
-    <AnimateIn from={{ scale: ".8", translate: "-300px 0" }} to={{ scale: "1", translate: "0 0" }}>
-      {children}
-    </AnimateIn>
-  );
-
-  const ScaleIn2 = ({ children }) => (
-    <AnimateIn from={{ scale: ".8", translate: "300px 0" }} to={{ scale: "1", translate: "0 0" }}>
-      {children}
-    </AnimateIn>
-  );
-
-  const Animate = {
-    ScaleIn1,
-    ScaleIn2
-  };
 
   return (
-    <section className="section" id='section-d'>
-      <h2 className='mb-7 white-border py-3 max-w-5xl mx-auto '>活動時程</h2>
+    <section className="section relative" id='section-d'>
+      <img src={Shape} alt="Shape" className='shape w-[90%] absolute top-80 z-0' />
+
+      <Animate.Opacity1>
+        <h2 className='mb-7 white-border py-3 max-w-5xl mx-auto '>活動時程</h2>
+      </Animate.Opacity1>
+
       <Animate.ScaleIn1>
-        <img src={charaY} alt="" className='absolute h-[500px] left-[-290px] top-[-50px]' />
+        <img src={charaY} alt="" className='absolute h-[500px] left-[-290px] top-[-50px] z-10' />
       </Animate.ScaleIn1>
 
-      <div className="content relative top-[100px] left-0 z-10 md:left-[20%] lg:left-[40%]">
-        <div className="timeline-box">
-          <img src={star} alt="" className='star' />
-          <h2>報名開始 Sign Up</h2>
-          <p className='white-border'>10/13</p>
-          <p className="px-3">-</p>
-          <p className='white-border'>10/30</p>
-        </div>
-        <div className="timeline-box">
-          <img src={star} alt="" className='star' />
+      <Animate.Opacity1>
 
-          <h2>各組上傳作品 Upload</h2>
-          <div className="mb-4">
-            <p className='white-border'>10/31</p>
-            <p className="pl-3">UI / 團體組開賽 </p>
+        <div className="content relative top-[100px] left-0 z-10 md:left-[20%] lg:left-[40%]">
+          <div className="timeline-box">
+            <img src={star} alt="" className='star' />
+            <h2>報名開始 Sign Up</h2>
+            <p className='white-border'>10/13</p>
+            <p className="px-3">-</p>
+            <p className='white-border'>10/30</p>
           </div>
-          <div className="">
-            <p className='white-border'>11/7</p>
-            <p className="pl-3">前端組開賽 </p>
-          </div>
-        </div>
-        <div className="timeline-box">
-          <img src={star} alt="" className='star' />
+          <div className="timeline-box">
+            <img src={star} alt="" className='star' />
 
-          <h2>線上直播 Stream</h2>
-          <p className='white-border'>11/3</p>
-          <p className="px-3">-</p>
-          <p className='white-border'>11/24</p>
+            <h2>各組上傳作品 Upload</h2>
+            <div className="mb-4">
+              <p className='white-border'>10/31</p>
+              <p className="pl-3">UI / 團體組開賽 </p>
+            </div>
+            <div className="">
+              <p className='white-border'>11/7</p>
+              <p className="pl-3">前端組開賽 </p>
+            </div>
+          </div>
+          <div className="timeline-box">
+            <img src={star} alt="" className='star' />
+
+            <h2>線上直播 Stream</h2>
+            <p className='white-border'>11/3</p>
+            <p className="px-3">-</p>
+            <p className='white-border'>11/24</p>
+          </div>
         </div>
-      </div>
+      </Animate.Opacity1>
+
       <Animate.ScaleIn2>
-        <img src={charaB} alt="" className='absolute h-[500px] right-[-290px] bottom-[50px]' />
+        <img src={charaB} alt="" className='absolute h-[500px] right-[-290px] bottom-[50px] z-10' />
       </Animate.ScaleIn2>
       <div className="challenge max-w-5xl">
         <div className="content">

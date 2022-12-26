@@ -46,7 +46,7 @@ const Nav = () => {
 
         <img src={Hamburger}
           alt=""
-          className='h-[20px] m-2 cursor-pointer lg:hidden '
+          className='h-[20px] m-2 cursor-pointer lg:hidden'
           onClick={() => setBurgerOpen(pre => !pre)} />
         <div className="drop-down bg-white flex flex-col top-[70px] right-0 left-0 fixed z-30 " data-active={burgerOpen}
         > {DATA_NAV_BTN.map((item) => {

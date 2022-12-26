@@ -16,7 +16,6 @@ const App = () => {
     <div className="wrapper">
       <div className="content bg-purple">
 
-        {/* <MoveElement /> */}
         <Nav />
         <Banner />
         <SectionA />
